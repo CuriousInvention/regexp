@@ -10,9 +10,9 @@ public class Main {
         //        String delimiters = "-|\\s+|,\\s*|\\.\\s*";
         String delimiters = "-|\\s+|,";
 
-        System.out.println(str + " is split into :: " + Arrays.toString(str.split(delimiters)));
-        System.out.println(str1 + " is split into :: " + Arrays.toString(str1.split(delimiters)));
-        System.out.println(str2 + " is split into :: " + Arrays.toString(str2.split(delimiters)));
-        System.out.println(str3 + " is split into :: " + Arrays.toString(str3.split(delimiters)));
+        System.out.println("'" + str + "' is split into :: " + Arrays.toString(str.split(delimiters)));
+        System.out.println("'" + str1 + "' is split into :: " + Arrays.toString(str1.split(delimiters)));
+        System.out.println("'" + str2 + "' is split into :: " + Arrays.toString(str2.split(delimiters)));
+        System.out.println("'" + str3 + "' is split into :: " + Arrays.toString(str3.split(delimiters)));
     }
 }
